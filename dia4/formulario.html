@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Formulario de registro - Mi web</title>
+        <link rel="stylesheet" href="./style/estilo.css">
+
+    </head>
+<body>
+
+<h2>Formulario</h2>
+
+<form action="resultado.html" method="get">
+    <div>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="Name" name="name" maxlength="50" placeholder="Ingrese su Nombre" required><br>
+    </div>
+    <div>
+        <label for="lname">Apedillo:</label><br>
+        <input type="text" id="Apedillo" name="lname" maxlength="50" placeholder="Ingrese su Apedillo"required><br><br>
+    </div>
+    <div>
+        <label for="Sexo">Sexo: </label>
+        <input type="radio" id="hombre" name="Sexo" value="Hombre">
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="mujer" name="Sexo" value="Mujer">
+        <label for="Hombre">Mujer</label>
+    </div>
+    <div>
+        <label for="fname">Email:</label><br>
+        <input type="email" id="email" name="email" maxlength="40" placeholder="Ingrese su Email" required><br>
+    </div>
+    <div>
+        <input type="checkbox" id="info" name="info"checked>
+        <label for="info">Deseo recibir información sobre novedades y ofertas</label><br>
+    </div>
+    <div>
+        <input type="checkbox" id="info" name="info" required>
+        <label for="info" >Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+    </div>
+    <div>
+        <label for="Poblacion">Poablacion</label>
+        <select id="Poblacion" name="Poblacion" required>
+        <option value=""></option>
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Giron">Giron</option>
+        <option value="Floridablanca">Floridablanca</option>
+        <option value="Piedecuesta">Piedecuesta</option>
+        </select>
+    </div>
+    <div>
+        <label for="Descripcion">Descripcion</label><br>
+        <textarea name="Descripcion" id="Descripcion" cols="50" rows="4" maxlength="50"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Enviar" required> 
+    </div>
+
+</form> 
+
+</body>
+    <FOOter>
+    <P class="uwu">&copy;2024 Andres David Perez Santiago Derechos Reservados para mi uwu</P>
+</FOOter>
+</html>

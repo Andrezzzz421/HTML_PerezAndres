@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans_Condensed-SemiBold.ttf );
+    font-weight:  bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans-Regular.ttf);
+    font-weight:  normal;
+    font-style: normal;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.cosogiganteblanco{
+    margin: auto;
+    width: 1920px;
+    height: 1080px;
+    background-color:white;
+    position: absolute;
+    
+}
+
+.cosonegro{
+    float: right;
+    width: 110px;
+    height: 1080px;
+/*     background-color: aqua; */
+    background-color:#212020;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.carrito{
+    position: absolute;
+    top: 50px;
+    left: 1740px;
+    width: 33px;
+    height: 32px;
+}
+
+.lupa{
+    position: absolute;
+    top: 52px;
+    left: 1600px;
+    width: 33px;
+    height: 32px;
+}
+
+.boton1{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 1px;
+    top: 29px;
+    left: 1150px;
+    width: 230px;
+    height: 1px;
+    font-size: 30px ;
+    transition:0.3s ease;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.boton1:after {
+    content: "";
+    display: block;
+    width: 146px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 40px;
+    bottom: -2px;
+    opacity: 0;
+    transition:0.3s ease;
+}
+
+.boton1:hover:after{
+    opacity: 1;
+}
+
+.boton2{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 1px;
+    top: 30px;
+    left: 1430px;
+    width: 200px;
+    height: 1px;
+    font-size: 30px ;
+    transition:0.3s ease;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.boton2:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 59px;
+    left: 20px;
+    bottom: -2px;
+    opacity: 0;
+    transition:0.3s ease;
+}
+
+.boton2:hover:after{
+    opacity: 1;
+}
+
+.flecharriba{
+    position: absolute;
+    top: 30px;
+    left: 1850px;
+}
+
+.texto1{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 1840px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.n4{
+    position: absolute;
+    color: gray;
+    top: 385px;
+    left: 1840px;
+    width: 20px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.n5{
+    position: absolute;
+    color: white;
+    top: 485px;
+    left: 1840px;
+    width: 20px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.n6{
+    position: absolute;
+    color: gray;
+    top: 580px;
+    left: 1840px;
+    width: 20px;
+    height: 187px;
+    font-family: 'opensans';
+    font-style: 'normal';
+}
+
+.flechabajo{
+    position: absolute;
+    top: 1000px;
+    left: 1850px;
+}
+
+.tarjeta{
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    width: 800px;
+    height: 500px;
+}
+
+.contenedor{
+    position: absolute;
+    top: 580px;
+    left: 800px;
+    max-width: 900px;
+    margin: 250px auto 50px auto;
+}
+
+input[type="number"] {
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    font-family: Bold;
+    font-size: 40px;
+    box-sizing: border-box;
+    text-indent: 120px;
+}
+
+.txt1{
+    position: absolute;
+    color: black;
+    top: 550px;
+    left: 600px;
+    font-size: 50px;
+    font-family: 'opensans';
+    font-style: 'bold';
+}
+
+.txt2{
+    position: absolute;
+    color: black;
+    top: 650px;
+    left: 825px;
+    font-size: 35px;
+    font-family: 'opensans';
+    font-style: 'bold';
+}
+
+.txt3{
+    position: absolute;
+    color: black;
+    top: 730px;
+    left: 875px;
+    font-size: 35px;
+    font-family: 'opensans';
+    font-style: 'bold';
+}
