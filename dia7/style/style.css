@@ -5,6 +5,7 @@ body{
     height: 1080px;
     background-color: #1e1d2b;
     margin: 0;
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
