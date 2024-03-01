@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textofood{
+    position: absolute;
+    top: 1px;
+    left: 80px;
+    color: #ff702a;
+    font-size: 35px;
+}
+
+.textofull{
+    position: absolute;
+    top: 150px;
+    left: 185px;
+    color: #ff702a;
+    font-size: 60px;
+}
+
+.textofoodthe{
+    position: absolute;
+    top: 280px;
+    left: 186px;
+    color: white;
+    font-size: 30px;
+}
+
+.textomost{
+    position: absolute;
+    top: 320px;
+    left: 186px;
+    color: white;
+    font-size: 30px;  
+}
+
+.cuadronaranja{
+    margin: auto;
+    top: 420px;
+    left: 186px;
+    width: 165px;
+    height: 40px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.todaymenu{
+    position: absolute;
+    top: 405px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    height: 450px;
+    width: 450px;
+}
+
+.contact{
+    position: absolute;
+    top: 23px;
+    left: 1700px;
+    color: white;
+    font-size: 25px;
+}
+
+.service{
+    position: absolute;
+    top: 23px;
+    left: 1570px;
+    color: white;
+    font-size: 25px;
+}
+
+.about{
+    position: absolute;
+    top: 23px;
+    left: 1440px;
+    color: white;
+    font-size: 25px;
+}
+
+.menu{
+    position: absolute;
+    top: 23px;
+    left: 1310px;
+    color: white;
+    font-size: 25px;
+}
+
+.home{
+    position: absolute;
+    top: 23px;
+    left: 1180px;
+    color: white;
+    font-size: 25px; 
+}
+
+.about_us{
+    position: absolute;
+    top: 1200px;
+    left: 1200px;
+    color: #ff702a;
+    font-size: 25px; 
+}
+
+.logo2{
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+    height: 450px;
+    width: 450px;
+}
+
+.speak{
+    position: absolute;
+    top: 1200px;
+    left: 1200px;
+    color: white;
+    font-size: 70px; 
+}
+
+.foodl{
+    position: absolute;
+    top: 1290px;
+    left: 1200px;
+    color: white;
+    font-size: 70px; 
+}
+
+.its{
+    position: absolute;
+    top: 1440px;
+    left: 1200px;
+    color: white;
+    font-size:30px; 
+    text-align: left;
+}
+
+.be{
+    position: absolute;
+    top: 1470px;
+    left: 1200px;
+    color: white;
+    font-size:30px; 
+    text-align: left;
+}
+
+.looking{
+    position: absolute;
+    top: 1500px;
+    left: 1200px;
+    color: white;
+    font-size:30px; 
+    text-align: left;
+}
+
+.cuadronaranja2{
+    margin: auto;
+    top: 1600px;
+    left: 1200px;
+    width: 165px;
+    height: 40px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.learn{
+    position: absolute;
+    top: 1584px;
+    left: 1230px;
+    color: white;
+    font-size: 20px;
+}
+
+.foodmenu{
+    position: absolute;
+    top: 1840px;
+    left: 900px;
+    color: #ff702a;
+    font-size: 30px;
+}
+
+.fresh{
+    position: absolute;
+    top: 1860px;
+    left: 600px;
+    color: white;
+    font-size: 60px;
+}
+
+.cuadro1{
+    margin: auto;
+    top: 2100px;
+    left: 150px;
+    width: 450px;
+    height: 450px;
+    background-color:#ffefe8;
+    position: absolute;
+    border-style: solid;
+    border: 5px solid black;
+}
+
+.dona{
+    position: absolute;
+    top: 2100px;
+    left: 230px;
+}
+
+.tipo{
+    position: absolute;
+    top: 2350px;
+    left: 235px;
+    font-size: 40px;
+}
+
+.tasty{
+    position: absolute;
+    top: 2430px;
+    left: 320px;
+    font-size: 20px;
+}
+
+.valor{
+    position: absolute;
+    top: 2470px;
+    left: 350px;
+    font-size: 20px;
+    color: #ff702a;
+}
+
+.cuadro2{
+    margin: auto;
+    top: 2100px;
+    left:690px;
+    width: 450px;
+    height: 450px;
+    background-color:#ffefe8;
+    position: absolute;
+    border-style: solid;
+    border: 5px solid black;
+}
+
+.jamburguer{
+    position: absolute;
+    top: 2085px;
+    left: 750px;
+    height: 330px;
+    width: 330px;
+}
+
+.tipo2{
+    position: absolute;
+    top: 2365px;
+    left: 765px;
+    font-size: 30px;
+}
+
+.tasty2{
+    position: absolute;
+    top: 2420px;
+    left: 860px;
+    font-size: 20px;
+}
+
+.valor2{
+    position: absolute;
+    top: 2465px;
+    left: 880px;
+    font-size: 20px;
+    color: #ff702a;
+}
+
+.cuadro3{
+    margin: auto;
+    top: 2100px;
+    left:1240px;
+    width: 450px;
+    height: 450px;
+    background-color:#ffefe8;
+    position: absolute;
+    border-style: solid;
+    border: 5px solid black;
+}
+
+.pollo{
+    position: absolute;
+    top: 2120px;
+    left: 1340px;
+    height: 270px;
+    width: 270px;
+}
+
+.tipo3{
+    position: absolute;
+    top: 2350px;
+    left: 1320px;
+    font-size: 35px;
+}
+
+.tasty3{
+    position: absolute;
+    top: 2420px;
+    left: 1415px;
+    font-size: 20px;
+}
+
+.valor3{
+    position: absolute;
+    top: 2465px;
+    left: 1440px;
+    font-size: 20px;
+    color: #ff702a;
+}
+
+.srv{
+    position: absolute;
+    top: 2700px;
+    left: 920px;
+    color: #ff702a;
+    font-size: 30px;
+}
+
+.weprovide{
+    position: absolute;
+    top: 2750px;
+    left: 545px;
+    color: white;
+    font-size: 60px;
+}
+
+.s1{
+    position: absolute;
+    top: 2980px;
+    left: 200px;
+    height: 350px;
+    width: 350px;
+}
+
+.s2{
+    position: absolute;
+    top: 2980px;
+    left: 820px;
+    height: 350px;
+    width: 350px;
+}
+
+.s3{
+    position: absolute;
+    top: 2980px;
+    left: 1400px;
+    height: 300px;
+    width: 300px;
+}
+
+.cabeza{
+    position: absolute;
+    top: 3280px;
+    left: 310px;
+    color: #ff702a;
+    font-size: 30px;
+}
+
+.txt1{
+    position: absolute;
+    top: 3350px;
+    left: 190px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt2{
+    position: absolute;
+    top: 3390px;
+    left: 145px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt3{
+    position: absolute;
+    top: 3430px;
+    left: 230px;
+    color:white;
+    font-size: 30px;
+}
+
+.cabeza2{
+    position: absolute;
+    top: 3280px;
+    left: 925px;
+    color: #ff702a;
+    font-size: 30px;
+}
+
+.txt4{
+    position: absolute;
+    top: 3350px;
+    left: 820px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt5{
+    position: absolute;
+    top: 3390px;
+    left: 775px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt6{
+    position: absolute;
+    top: 3425px;
+    left: 850px;
+    color:white;
+    font-size: 30px;
+}
+
+.cabeza3{
+    position: absolute;
+    top: 3280px;
+    left: 1480px;
+    color: #ff702a;
+    font-size: 30px;
+}
+
+.txt7{
+    position: absolute;
+    top: 3350px;
+    left: 1380px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt8{
+    position: absolute;
+    top: 3390px;
+    left: 1335px;
+    color:white;
+    font-size: 30px;
+}
+
+.txt9{
+    position: absolute;
+    top: 3425px;
+    left: 1410px;
+    color:white;
+    font-size: 30px;
+}
+
+.cosogigante{
+    margin: auto;
+    top: 3800px;
+    left: 100px;
+    width: 1800px;
+    height: 400px;
+    background-color:#ffefe8;
+    position: absolute;
+    border-style: solid;
+    border: 5px solid black;
+}
+
+.wemake{
+    position: absolute;
+    top: 3800px;
+    left: 650px;
+    color:black;
+    font-size: 70px;
+}
+
+.everyday{
+    position: absolute;
+    top: 3890px;
+    left: 870px;
+    color:black;
+    font-size: 70px;
+}
+
+.naranjapequeña{
+    margin: auto;
+    top: 4100px;
+    left: 950px;
+    width: 165px;
+    height: 40px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.dentrodenaranja{
+    position: absolute;
+    top: 4085px;
+    left: 980px;
+    color: white;
+    font-size: 20px;
+}
+
+.menulinks{
+    position: absolute;
+    top: 4500px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.barrita{
+    margin: auto;
+    top: 4575px;
+    left: 200px;
+    width: 80px;
+    height: 4px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.tt{
+    position: absolute;
+    top: 4580px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.tt2{
+    position: absolute;
+    top: 4625px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.tt3{
+    position: absolute;
+    top: 4668px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.tt4{
+    position: absolute;
+    top: 4712px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.tt5{
+    position: absolute;
+    top: 4753px;
+    left: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.ourservi{
+    position: absolute;
+    top: 4500px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.barrita2{
+    margin: auto;
+    top: 4575px;
+    left: 500px;
+    width: 70px;
+    height: 4px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.ttt1{
+    position: absolute;
+    top: 4580px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.ttt2{
+    position: absolute;
+    top: 4625px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.ttt3{
+    position: absolute;
+    top: 4668px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.ttt4{
+    position: absolute;
+    top: 4712px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.ttt5{
+    position: absolute;
+    top: 4753px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+}
+
+.info{
+    position: absolute;
+    top: 4500px;
+    left: 970px;
+    color: white;
+    font-size: 30px;
+}
+
+.barrita3{
+    margin: auto;
+    top: 4575px;
+    left: 970px;
+    width: 60px;
+    height: 4px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.t1{
+    position: absolute;
+    top: 4580px;
+    left: 970px;
+    color: white;
+    font-size: 30px;
+}
+
+.t2{
+    position: absolute;
+    top: 4625px;
+    left: 970px;
+    color: white;
+    font-size: 30px;
+}
+
+.t3{
+    position: absolute;
+    top: 4668px;
+    left: 970px;
+    color: white;
+    font-size: 30px;
+}
+
+.t4{
+    position: absolute;
+    top: 4712px;
+    left: 970px;
+    color: white;
+    font-size: 30px;
+}
+
+.t5{
+    position: absolute;
+    top: 4500px;
+    left: 1400px;
+    color: white;
+    font-size: 30px;
+}
+
+.barrita4{
+    margin: auto;
+    top: 4575px;
+    left: 1400px;
+    width: 83px;
+    height: 4px;
+    background-color:#ff702a;
+    position: absolute;
+}
+
+.bolita1{
+    position: absolute;
+    top: 4600px;
+    left: 1400px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff702a;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin: 0px auto;
+}
+
+.bolita2{
+    position: absolute;
+    top: 4600px;
+    left: 1440px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff702a;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin: 0px auto;
+}
+
+.bolita3{
+    position: absolute;
+    top: 4600px;
+    left: 1480px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff702a;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin: 0px auto;
+}
+.bolita4{
+    position: absolute;
+    top: 4600px;
+    left: 1520px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff702a;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin: 0px auto;
+}
+.liverta{
+    position: absolute;
+    top: 4840px;
+    color: #1e1d2b;
+}
