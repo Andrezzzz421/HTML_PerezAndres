@@ -11,18 +11,18 @@ body{
 
 .textofood{
     position: absolute;
-    top: 1px;
-    left: 80px;
+    top: 0.0625em; 
+    left: 2.5em; 
     color: #ff702a;
-    font-size: 35px;
+    font-size: 2.1875em; 
 }
 
 .textofull{
     position: absolute;
-    top: 150px;
-    left: 185px;
+    top: 2em; 
+    left: 3em; 
     color: #ff702a;
-    font-size: 60px;
+    font-size: 3.75em;
 }
 
 .textofoodthe{
