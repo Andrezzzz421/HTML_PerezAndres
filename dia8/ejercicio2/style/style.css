@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .flex {
+      flex-direction: column;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+.flex > div{
+    background-color: gray;
+    margin:1em;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+img{
+    width: 40%;
+}

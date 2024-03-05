@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+@media (max-width: 800px) {
+    .boxflex{
+      flex-direction: column;
+    }
+}
+
 .boxflex > div{
     background-color: gray;
     margin:1em;
